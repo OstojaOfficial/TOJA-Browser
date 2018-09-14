@@ -15,9 +15,6 @@
   
 ## Screenshots
 
-  * Start League of legends. Login:
    ![alt text](https://ibb.co/myaRfU)
-  * Start League of legends. Login:
    ![alt text](https://ibb.co/mNaEZp)
-  * Start League of legends. Login:
    ![alt text](https://ibb.co/jxDCLU)
