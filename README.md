@@ -15,6 +15,6 @@
   
 ## Screenshots
 
-   ![alt text](https://ibb.co/myaRfU)
-   ![alt text](https://ibb.co/mNaEZp)
-   ![alt text](https://ibb.co/jxDCLU)
+![Alt text](https://preview.ibb.co/bSbA79/screen1.png "Optional title")
+![Alt text](https://preview.ibb.co/h9CiS9/screen2.png "Optional title")
+![Alt text](https://preview.ibb.co/hNOOS9/screen3.png "Optional title")
