@@ -6,7 +6,7 @@
   
 ## Installation
 
-  * Installation is simple, just download the source code and run it in Visual Studio.
+  * Installation is simple, just download the source code and run it in Visual Studio or run the executable.
   * Requirements: .NET 4.5 framework or higher.
   
 ## TO-DO
