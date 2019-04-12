@@ -27,8 +27,6 @@ namespace TOJA_Browser
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            webBrowser1.Navigate("ostoja.tk/browser.php");
-            webBrowser1.DocumentCompleted += WebBrowser_DocumentCompleted;
             RegistryKey key32 = Registry.LocalMachine.OpenSubKey(@"SOFTWARE\Microsoft\Internet Explorer\Main\FeatureControl\FEATURE_BROWSER_EMULATION", true);
             RegistryKey key64 = Registry.LocalMachine.OpenSubKey(@"SOFTWARE\WOW6432Node\Microsoft\Internet Explorer\Main\FeatureControl\FEATURE_BROWSER_EMULATION", true);
             string keyName32 = @"HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\Main\FeatureControl\FEATURE_BROWSER_EMULATION";
@@ -38,17 +36,23 @@ namespace TOJA_Browser
 
             if (Registry.GetValue(keyName32, valueName32, null) == null)
             {
+                MessageBox.Show("Registries have been modiefied!", "Update!");
+                key64.SetValue("TOJA Browser.exe", 11001, RegistryValueKind.DWord);
                 key32.SetValue("TOJA Browser.exe", 11001, RegistryValueKind.DWord);
-                this.Close();
+                System.Windows.Forms.Application.Exit();
             }
 
             if (Registry.GetValue(keyName64, valueName64, null) == null)
             {
+                MessageBox.Show("Registries have been modiefied!", "Update!");
                 key64.SetValue("TOJA Browser.exe", 11001, RegistryValueKind.DWord);
-                this.Close();
+                key32.SetValue("TOJA Browser.exe", 11001, RegistryValueKind.DWord);
+                System.Windows.Forms.Application.Exit();
             }
 
-            txtUrl.AppendText("ostoja.tk/browser.php");
+            webBrowser1.Navigate("ostoja.tk/browser.php");
+            webBrowser1.DocumentCompleted += WebBrowser_DocumentCompleted;
+            txtUrl.AppendText("https://www.ostoja.tk/browser.php");
         }
 
         private void WebBrowser_DocumentCompleted(object sender, WebBrowserDocumentCompletedEventArgs e)
