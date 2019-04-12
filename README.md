@@ -11,7 +11,7 @@
   
 ## TO-DO
 
-  * Add popup message after registries have been configured.
+  * None.
   
 ## Screenshots
 
