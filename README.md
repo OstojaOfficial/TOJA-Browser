@@ -11,9 +11,7 @@
   
 ## TO-DO
 
-  * Upload new executable.
-  * Fix homepage.
-  * Make registry IF shorter.
+  * None.
   
 ## Screenshots
 

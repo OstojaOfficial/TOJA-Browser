@@ -8,3 +8,13 @@ C:\Users\ostoj\source\repos\TOJA Browser\TOJA Browser\bin\Debug\TOJA Browser.exe
 C:\Users\ostoj\source\repos\TOJA Browser\TOJA Browser\bin\Debug\TOJA Browser.pdb
 C:\Users\ostoj\source\repos\TOJA Browser\TOJA Browser\obj\Debug\TOJA Browser.exe
 C:\Users\ostoj\source\repos\TOJA Browser\TOJA Browser\obj\Debug\TOJA Browser.pdb
+C:\Users\Ostoja\Desktop\Programming\TOJA Browser\TOJA Browser\bin\Debug\TOJA Browser.exe.config
+C:\Users\Ostoja\Desktop\Programming\TOJA Browser\TOJA Browser\bin\Debug\TOJA Browser.exe
+C:\Users\Ostoja\Desktop\Programming\TOJA Browser\TOJA Browser\bin\Debug\TOJA Browser.pdb
+C:\Users\Ostoja\Desktop\Programming\TOJA Browser\TOJA Browser\obj\Debug\TOJA Browser.csprojAssemblyReference.cache
+C:\Users\Ostoja\Desktop\Programming\TOJA Browser\TOJA Browser\obj\Debug\TOJA_Browser.Form1.resources
+C:\Users\Ostoja\Desktop\Programming\TOJA Browser\TOJA Browser\obj\Debug\TOJA_Browser.Properties.Resources.resources
+C:\Users\Ostoja\Desktop\Programming\TOJA Browser\TOJA Browser\obj\Debug\TOJA Browser.csproj.GenerateResource.cache
+C:\Users\Ostoja\Desktop\Programming\TOJA Browser\TOJA Browser\obj\Debug\TOJA Browser.csproj.CoreCompileInputs.cache
+C:\Users\Ostoja\Desktop\Programming\TOJA Browser\TOJA Browser\obj\Debug\TOJA Browser.exe
+C:\Users\Ostoja\Desktop\Programming\TOJA Browser\TOJA Browser\obj\Debug\TOJA Browser.pdb

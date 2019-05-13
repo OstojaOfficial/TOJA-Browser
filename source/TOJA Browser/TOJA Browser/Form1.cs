@@ -34,7 +34,7 @@ namespace TOJA_Browser
             string keyName64 = @"HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Internet Explorer\Main\FeatureControl\FEATURE_BROWSER_EMULATION";
             string valueName64 = "TOJA Browser.exe";
 
-            if (Registry.GetValue(keyName32, valueName32, null) == null)
+            if (Registry.GetValue(keyName32, valueName32, null) == null || Registry.GetValue(keyName64, valueName64, null) == null)
             {
                 MessageBox.Show("Registries have been modiefied!", "Update!");
                 key64.SetValue("TOJA Browser.exe", 11001, RegistryValueKind.DWord);
@@ -42,15 +42,7 @@ namespace TOJA_Browser
                 System.Windows.Forms.Application.Exit();
             }
 
-            if (Registry.GetValue(keyName64, valueName64, null) == null)
-            {
-                MessageBox.Show("Registries have been modiefied!", "Update!");
-                key64.SetValue("TOJA Browser.exe", 11001, RegistryValueKind.DWord);
-                key32.SetValue("TOJA Browser.exe", 11001, RegistryValueKind.DWord);
-                System.Windows.Forms.Application.Exit();
-            }
-
-            webBrowser1.Navigate("ostoja.tk/browser.php");
+            webBrowser1.Navigate("5.172.39.25/browser.php");
             webBrowser1.DocumentCompleted += WebBrowser_DocumentCompleted;
             txtUrl.AppendText("https://www.ostoja.tk/browser.php");
         }
@@ -78,8 +70,8 @@ namespace TOJA_Browser
             webTab = new WebBrowser() { ScriptErrorsSuppressed = true };
             webTab.Parent = tab;
             webTab.Dock = DockStyle.Fill;
-            webTab.Navigate("ostoja.tk/browser.php");
-            txtUrl.Text = "ostoja.tk/browser.php";
+            webTab.Navigate("5.172.39.25/browser.php");
+            txtUrl.Text = "https://ostoja.tk/browser.php";
             webTab.DocumentCompleted += WebTab_DocumentCompled;
         }
 
