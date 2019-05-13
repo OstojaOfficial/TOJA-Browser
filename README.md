@@ -1,7 +1,7 @@
 # TOJA Browser
 
   * Toja Browser is simple web browser written in C# .NET
-  * It has full video and audio support.
+  * It has video and audio support.
   * It has HTML5 support.
   
 ## Installation
@@ -11,7 +11,9 @@
   
 ## TO-DO
 
-  * None.
+  * Upload new executable.
+  * Fix homepage.
+  * Make registry IF shorter.
   
 ## Screenshots
 
