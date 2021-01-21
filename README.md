@@ -16,5 +16,5 @@
 ## Screenshots
 
 ![screen1.png](https://preview.ibb.co/bSbA79/screen1.png "screen1.png")
-![screen1.png](https://preview.ibb.co/h9CiS9/screen2.png "screen1.png")
-![screen1.png](https://preview.ibb.co/hNOOS9/screen3.png "screen1.png")
+![screen2.png](https://preview.ibb.co/h9CiS9/screen2.png "screen2.png")
+![screen3.png](https://preview.ibb.co/hNOOS9/screen3.png "screen3.png")
