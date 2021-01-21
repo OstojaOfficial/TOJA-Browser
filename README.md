@@ -15,6 +15,6 @@
   
 ## Screenshots
 
-![Alt text](https://preview.ibb.co/bSbA79/screen1.png "Optional title")
-![Alt text](https://preview.ibb.co/h9CiS9/screen2.png "Optional title")
-![Alt text](https://preview.ibb.co/hNOOS9/screen3.png "Optional title")
+![screen1.png](https://preview.ibb.co/bSbA79/screen1.png "screen1.png")
+![screen1.png](https://preview.ibb.co/h9CiS9/screen2.png "screen1.png")
+![screen1.png](https://preview.ibb.co/hNOOS9/screen3.png "screen1.png")
